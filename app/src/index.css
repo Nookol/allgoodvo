@@ -17,7 +17,6 @@
 
 html{
   min-width: 320px;
-
 }
 
 body{
@@ -34,21 +33,13 @@ header{
   display: inline-block;
   line-height: 72px;
   margin-bottom: 20px;
+}
 
-}
-p{
-  margin-top: 0;
-  margin-bottom: 20px;
-}
+
 .head{
   text-align: center;
-  position: relative;
-
-
 }
 
-.headerobjectswrapper{
-}
 
 .subhead{
   text-transform: uppercase;
@@ -57,51 +48,27 @@ p{
   padding: 12px 0 12px 0;
 
 }
-.weatherforcastbox{
-  position: relative;
-  width: 12%;
-  left: 10px;
-  border: 3px double #2f2f2f;
-  padding: 10px 15px 10px 15px;
-  line-height: 20px;
-  display: inline-block;
-  margin: 0 50px 20px -360px;
-}
+
 .content{
-  font-size: 0;
-  line-height: 0;
-  word-spacing: -.31em;
   display: inline-block;
   margin: 30px 2% 0 2%;
-
-
-}
-.collumns{
-
 }
 
 .collumn{
-  font-size: 14px;
-  line-height: 20px;
-  width: 17.5%;
+  width: 100% !important;
   display: inline-block;
-  padding: 0 1% 0 1%;
-  vertical-align: top;
-  margin-bottom: 50px;
   transition: all .7s;
 }
-.collumn + .collumn {
-  border-left: 1px solid #2f2f2f;
-}
+
+
 .collumn .headline{
   text-align: center;
   line-height: normal;
   font-family: 'Playfair Display', serif;
   display: block;
   margin: 0 auto;
-
-
 }
+
 .collumn .headline.hl1{
   font-weight: 700;
   font-size: 30px;
@@ -113,9 +80,9 @@ p{
 .collumn .headline.hl2{
   font-weight: 400;
   font-style: italic;
-  font-size: 24px;
+  font-size: 20px;
   box-sizing: border-box;
-  padding: 10px 0 10px 0;
+  padding: 5px 0 5px 0;
 }
 
 .collumn .headline.hl2:before{
@@ -254,6 +221,7 @@ p{
 .collumn .figure {
   margin: 0 0 20px;
 }
+
 .collumn .figcaption{
   font-style: italic;
   font-size: 12px;
